@@ -16,8 +16,6 @@ class Score {
         }
     }
 
-    fun getTotalScore(): Int {
-        return totalScore
-    }
+    fun getTotalScore(): Int = totalScore
 
 }
